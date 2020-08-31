@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+    <link rel="stylesheet" href="dist/css/glightbox.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gunit's Boutique</title>
+  </head>
+
+  <body>
+    <header class="menu">
+      <button class="nav-tgl white" type="button" aria-label="toggle menu">
+        <!-- this span just for the three dividers in the hamburger button-->
+        <span aria-hidden="true"></span>
+      </button>
+      <nav class="nav white">
+        <!-- I don't care about the menu elements here so I will hide them-->
+        <div class="navbar" id="list">
+          <ul class="nav-elements" id="navlist">
+            <li onclick="sendback()" class="hide">
+              <a href="#home">Home</a>
+            </li>
+            <li onclick="sendback()" class="hide">
+              <a href="#aboutus">About Us</a>
+            </li>
+            <li onclick="sendback()" class="hide">
+              <a href="#categories">Categories</a>
+            </li>
+            <li onclick="sendback()" class="hide">
+              <a href="#testimonials">Testimonials</a>
+            </li>
+            <li onclick="sendback()" class="hide">
+              <a href="#contactus">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <a class="whatsapp" href="https://wa.me/919717425738">
+      <img class="my-float" src="./assets/whatsapp.svg" alt="whatsapp" width=30"
+      height="30">
+    </a>
+    <a class="facebook" href="https://facebook.com/Gunitkaur25/">
+      <img
+        width="30px"
+        height="30px"
+        class="my-float"
+        src="./assets/facebook.svg"
+        alt="facebook logo"
+      />
+    </a>
+
+    <a class="instagram" href="https://www.instagram.com/gunitsboutique/">
+      <img
+        width="30px"
+        height="30px"
+        class="my-float"
+        src="./assets/instagram.svg"
+        alt="instagram logo"
+      />
+    </a>
+
+    <section id="home" class="section" style="height: 100vh;">
+      <div class="img-blck1">
+        <img src="assets\logo.svg" alt="Gunit's Boutique Logo" />
+      </div>
+
+      <div class="branding-txt">
+        <p class="heading"><span class="double">Gunit's Boutique</span></p>
+        <p class="content">
+          Deals in: <br />
+          Designer Stitching <br />
+          & Dress Material
+        </p>
+      </div>
+    </section>
+
+    <section id="aboutus" class="main" style="text-align: center;">
+      <h1>About Us</h1>
+      <p class="aboutus">
+        My aim is always to make my designs & creativity come to life. Gunit's
+        Boutique is an upcoming fashion Boutique for womens & children wear
+        primarily deals in style assessment, designing, customized stitching,
+        ready to wear, party wear, bridal wear & running fabric materials.
+        Having more than six years of experience in designing dresses for our
+        clients as per their needs & requirements & having satisfied them with
+        perfect fit. I started this venture as my passion at a very small scale.
+        Started gathering satisfied customer's appreciation & my clients
+        multiplied through word of mouth. We dont only have customers limited to
+        our area but also different parts of the world like Canada, Qatar,
+        Malaysia, Singapore etc.
+      </p>
+    </section>
+
+    <section id="categories" class="main">
+      <h1>Categories</h1>
+      <section class="section">
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Denim designs/1.jpg" alt="denim designs" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Denim Designs</p>
+            <a id="denims">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Kurtis/9.jpg" alt="Ladies Kurti" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Kurtis</p>
+            <a id="kurti">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Tunics/4.jpg" alt="Tunics" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Tunics</p>
+            <a id="tunics">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Midis/1.jpg" alt="Midis" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Midis</p>
+            <a id="midis">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img
+              src="assets/Jumpsuits with jacket/5.jpg"
+              alt="Jumpsuits with Jacket"
+            />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Jumpsuits with Jacket</p>
+            <a id="jwithj">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Drape/1.jpg" alt="Drapes" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Drapes</p>
+            <a id="drapes">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Cowled dresses/4.jpg" alt="Crowled Dresses" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Crowled Dresses</p>
+            <a id="cdresses">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img
+              src="assets/Jumpsuits with drape/1.jpg"
+              alt="Jumpsuits with Drape"
+            />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Jumpsuits with Drape</p>
+            <a id="jwithd">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Coats/1.jpg" alt="Coats for Ladies" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Coats & Jacket</p>
+            <a id="coats">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Fish cut skirt/5.jpg" alt="Fish cut Skirt" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Fish Cut Skirt</p>
+            <a id="fcuts">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Ruffled dresses/3.jpg" alt="Ruffled Dresses" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Ruffled Dresses</p>
+            <a id="rdresses">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img
+              src="assets/Padded and Non-Padded blouses/3.jpg"
+              alt="Padded & Non-Padded Blouses"
+            />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Padded and Non-Padded Blouses</p>
+            <a id="pandnb">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Dupatta/2.jpg" alt="Dupatta Designs" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Dupatta Designs</p>
+            <a id="ddesigns">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Lehanga dresses/5.jpg" alt="Lehanga Dresses" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Lehanga Dresses</p>
+            <a id="ldresses">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Sharara dress/10.jpg" alt="Sharara Dresses" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Sharara Dresses</p>
+            <a id="sdresses">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Garara dresses/7.jpg" alt="Garara Dresses" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Garara Dresses</p>
+            <a id="gdresses">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Anarkali suits/9.jpg" alt="Anarkali Suits" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Anarkali Suits</p>
+            <a id="asuits">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Kalidar plazzo/3.jpg" alt="Kalidar Palazo" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Kalidar Palazo</p>
+            <a id="kpalazo">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/Bridal dresses/2.jpg" alt="Bridal Wear" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Bridal</p>
+            <a id="bridal">View Gallery</a>
+          </div>
+        </div>
+
+        <div class="movie-select">
+          <div class="img-content">
+            <img src="assets/suits.jpg" alt="Fabric Material" />
+          </div>
+          <div class="img-desc" id="images-demo">
+            <p>Fabric Material</p>
+            <a id="fabricM">View Gallery</a>
+          </div>
+        </div>
+
+      </section>
+    </section>
+
+    <section id="testimonials" class="splide">
+      <div class="main">
+        <h1>Testimonials</h1>
+      </div>
+
+      <div class="splide__track">
+        <ul class="splide__list wrapper">
+          <!-- This the container of all the cards -->
+          <li class="splide__slide cards">
+            <!--This is a single card  -->
+            <img src="assets/download.jpg" alt="" />
+            <div class="card-content">
+              <h4>
+                "I've got a lot of appreciation from my friends after getting my
+                dresses stitched from Gunit's Boutique"
+              </h4>
+              <p style="text-align: right;">
+                <!-- -Angelina Jolie -->
+              </p>
+            </div>
+          </li>
+          <li class="splide__slide cards">
+            <!--This is a single card  -->
+            <img src="assets/download.jpg" alt="" />
+            <div class="card-content">
+              <h4>
+                "Loved your design and creativity and the way you handeled my
+                insecurity about the dress is appreciable"
+              </h4>
+              <p style="text-align: right;">
+                <!-- -Angelina Jolie -->
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contactus">
+      <div class="main">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="map-section">
+        <div id="map"></div>
+        <div class="branding-txt">
+          <p class="heading"><span class="double">Gunit's Boutique </span></p>
+          <p class="content">
+            Shop No-43, FF B2, DDA Market, Paschim Vihar, New Delhi, 110063
+          </p>
+          <p class="pno">
+            +91 9717425738
+          </p>
+          <div class="job">
+            <h3>For Job/Enquiries</h3>
+            <h4>Email us at:</h4>
+            <p>
+              <a href="mailto:gunitsboutique@gmail.com"
+                >gunitsboutique@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-icons">
+        <a href="https://www.instagram.com/gunitsboutique/">
+          <img alt="instagram" src="./assets/instagram.svg" width=30"
+          height="30">
+        </a>
+        <a href="https://facebook.com/Gunitkaur25/">
+          <img alt="facebook" src="./assets/facebook.svg" width=30" height="30">
+        </a>
+        <a
+          href="https://www.justdial.com/Delhi/Gunits-Boutique-Opposite-Gurudwara-Paschim-Vihar/011PXX11-XX11-180413162231-K7L2_BZDET"
+        >
+          <img src="./assets/jd-logo.png" alt="JustDial"width=60" height="55"
+          style = "margin-left: -10px">
+        </a>
+      </div>
+      <p class="footer-text">
+        Made with <img src="./assets/heart.svg" width="15" alt="LOVE" /> by
+        <a href="https://www.linkedin.com/in/anit-singh-8a1964116">Anit</a> and
+        <a href="https://www.linkedin.com/in/imran-sayed-08a498164/">Imran</a>
+      </p>
+    </footer>
+
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfxMnkBu7pxdariDX0MpC58fcSOTk9Q2Y&callback=initMap"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="dist/js/glightbox.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
