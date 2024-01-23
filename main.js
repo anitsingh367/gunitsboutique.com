@@ -1217,7 +1217,11 @@ function sendback() {
   menu.classList.remove("active");
   navlist.classList.remove("front");
 }
-
+window.onload = function () {
+  document.getElementById("button").onclick = function () {
+    document.getElementById("modalOverlay").style.display = "none";
+  };
+};
 // function initMap() {
 //   var uluru = { lat: 28.669178, lng: 77.1052347 };
 //   var map = new google.maps.Map(document.getElementById("map"), {
